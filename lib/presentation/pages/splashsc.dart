@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'package:posyandu/presentation/pages/ladingpg.dart';
 
@@ -9,15 +11,15 @@ class SplashSc extends StatefulWidget {
 }
 
 class _SplashScState extends State<SplashSc> {
-  // @override
-  // void initState() {
-  //   Future.delayed(const Duration(seconds: 5)).then((value) => Navigator.push(
-  //       context,
-  //       MaterialPageRoute(
-  //         builder: (context) => const LandingPgone(),
-  //       )));
-  //   super.initState();
-  // }
+  @override
+  void initState() {
+    Future.delayed(const Duration(seconds: 5)).then((value) => Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const LandingPgone(),
+        )));
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {

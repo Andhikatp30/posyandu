@@ -47,7 +47,7 @@ class _LoginState extends State<Login> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(25),
+            padding: const EdgeInsets.all(20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -165,7 +165,7 @@ class _LoginState extends State<Login> {
                     Text(
                       "Apakah kamu sudah memiliki akun Rumah Kita?",
                       textAlign: TextAlign.center,
-                      style: regularBlackTextStyle.copyWith(fontSize: 8),
+                      style: regularBlackTextStyle.copyWith(fontSize: 12),
                     ),
                     TextButton(
                       onPressed: () {
@@ -177,7 +177,7 @@ class _LoginState extends State<Login> {
                       child: Text(
                         "Daftar",
                         textAlign: TextAlign.center,
-                        style: regularBlackTextStyle.copyWith(fontSize: 9),
+                        style: regularBlackTextStyle.copyWith(fontSize: 10),
                       ),
                     ),
                   ],

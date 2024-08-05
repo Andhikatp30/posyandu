@@ -41,7 +41,9 @@ class _EditprofilState extends State<Editprofil> {
                   alignment: Alignment.topCenter,
                   child: Column(
                     children: [
-                      const CircleAvatar(),
+                      const CircleAvatar(
+                        foregroundImage: AssetImage('assets/images/Pria.jpeg'),
+                      ),
                       const SizedBox(height: 25),
                       Text(
                         'Febsa Maulana Aziz',
@@ -95,7 +97,7 @@ class _EditprofilState extends State<Editprofil> {
                           ),
                           const SizedBox(height: 5),
                           buildTextField(
-                              'Dimas Rizqi Suryana', TextInputType.name),
+                              'Febsa Maulana Aziz', TextInputType.name),
                           const SizedBox(height: 12),
                           Text('Alamat',
                               style:
@@ -113,7 +115,10 @@ class _EditprofilState extends State<Editprofil> {
                           Align(
                             alignment: Alignment.bottomRight,
                             child: ElevatedButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => const Profil()));
+                              },
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.teal,
                                 shape: RoundedRectangleBorder(

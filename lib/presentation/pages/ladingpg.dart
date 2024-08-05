@@ -36,7 +36,7 @@ class LandingPgone extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con',
+                    'Selamat Datang Di Aplikasi Posyandu Anggrek 1',
                     style: mediumBlackTextStyle.copyWith(fontSize: 18),
                     maxLines: 3,
                     textAlign: TextAlign.center,

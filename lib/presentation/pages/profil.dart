@@ -50,7 +50,9 @@ class _ProfilState extends State<Profil> {
                     const SizedBox(
                       height: 45,
                     ),
-                    const CircleAvatar(),
+                    const CircleAvatar(
+                      foregroundImage: AssetImage('assets/images/Pria.jpeg'),
+                    ),
                     const SizedBox(
                       height: 45,
                     ),
@@ -101,60 +103,60 @@ class _ProfilState extends State<Profil> {
                       ),
                     ),
                   ),
-                  const SizedBox(height: 25),
-                  InkWell(
-                    onTap: () {},
-                    child: Container(
-                      height: 55,
-                      width: 350,
-                      decoration: BoxDecoration(
-                          color: Colors.teal[200],
-                          borderRadius: BorderRadius.circular(18)),
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 25),
-                        child: Row(
-                          children: [
-                            const Icon(Icons.info_outline),
-                            const SizedBox(width: 20),
-                            Text(
-                              'Tentang Kami',
-                              style:
-                                  mediumBlackTextStyle.copyWith(fontSize: 18),
-                            ),
-                            const SizedBox(width: 95),
-                            const Icon(Icons.arrow_forward_ios_outlined)
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 25),
-                  InkWell(
-                    onTap: () {},
-                    child: Container(
-                      height: 55,
-                      width: 350,
-                      decoration: BoxDecoration(
-                          color: Colors.teal[200],
-                          borderRadius: BorderRadius.circular(18)),
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 25),
-                        child: Row(
-                          children: [
-                            const Icon(Icons.settings_outlined),
-                            const SizedBox(width: 20),
-                            Text(
-                              'Pengaturan',
-                              style:
-                                  mediumBlackTextStyle.copyWith(fontSize: 18),
-                            ),
-                            const SizedBox(width: 115),
-                            const Icon(Icons.arrow_forward_ios_outlined)
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
+                  // const SizedBox(height: 25),
+                  // InkWell(
+                  //   onTap: () {},
+                  //   child: Container(
+                  //     height: 55,
+                  //     width: 350,
+                  //     decoration: BoxDecoration(
+                  //         color: Colors.teal[200],
+                  //         borderRadius: BorderRadius.circular(18)),
+                  //     child: Padding(
+                  //       padding: const EdgeInsets.symmetric(horizontal: 25),
+                  //       child: Row(
+                  //         children: [
+                  //           const Icon(Icons.info_outline),
+                  //           const SizedBox(width: 20),
+                  //           Text(
+                  //             'Tentang Kami',
+                  //             style:
+                  //                 mediumBlackTextStyle.copyWith(fontSize: 18),
+                  //           ),
+                  //           const SizedBox(width: 95),
+                  //           const Icon(Icons.arrow_forward_ios_outlined)
+                  //         ],
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
+                  // const SizedBox(height: 25),
+                  // InkWell(
+                  //   onTap: () {},
+                  //   child: Container(
+                  //     height: 55,
+                  //     width: 350,
+                  //     decoration: BoxDecoration(
+                  //         color: Colors.teal[200],
+                  //         borderRadius: BorderRadius.circular(18)),
+                  //     child: Padding(
+                  //       padding: const EdgeInsets.symmetric(horizontal: 25),
+                  //       child: Row(
+                  //         children: [
+                  //           const Icon(Icons.settings_outlined),
+                  //           const SizedBox(width: 20),
+                  //           Text(
+                  //             'Pengaturan',
+                  //             style:
+                  //                 mediumBlackTextStyle.copyWith(fontSize: 18),
+                  //           ),
+                  //           const SizedBox(width: 115),
+                  //           const Icon(Icons.arrow_forward_ios_outlined)
+                  //         ],
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                   const SizedBox(height: 25),
                   InkWell(
                     onTap: () {

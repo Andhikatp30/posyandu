@@ -25,6 +25,7 @@ class Listlayanan extends StatelessWidget {
             ),
           );
         },
+        
         child: Card(
           color: Colors.teal,
           child: Padding(
